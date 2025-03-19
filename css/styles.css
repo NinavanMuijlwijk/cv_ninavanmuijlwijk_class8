@@ -2,27 +2,33 @@
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sancreek&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sancreek&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* Styles for the body */
 
 body {
 	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #202030;
-	background-color: #f8f8fc;
+	background-color: lightskyblue;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: floralwhite;
+}
+
+.mynewfont {
+	font-family: "Sancreek", serif; 
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: white;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: aliceblue;
 }
 
 /* Styles for lists in the document */
@@ -33,10 +39,11 @@ body {
 	display: inline-block;
 	width: 1em;
 	margin-left: -1em;
+	color: goldenrod;
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: goldenrod;
 }
 
 .biography-details li, .skill-list li {
@@ -48,4 +55,53 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+
+.change-color-levelDutch {
+	background-color: #A8E6CF;
+}
+
+.change-color-levelEnglish {
+	background-color: #FFF4A3;
+}
+
+.change-color-levelGerman {
+	background-color: #FFADAD;
+}
+
+.change-color-text {
+	color: midnightblue;
+}
+
+.change-color-headtext {
+	color: blue;
+}
+
+.change-color-contactlist {
+	color: goldenrod;
+}
+
+.tinos-regular {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tinos-bold {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.tinos-regular-italic {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.tinos-bold-italic {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: italic;
 }
